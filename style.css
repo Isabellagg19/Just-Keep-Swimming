@@ -1,0 +1,11 @@
+body {
+    background-color:rgb(42, 165, 165)
+}
+
+.main-title {
+    font-family:"Mountains of Christmas", serif;
+  font-weight: 700;
+  font-size: 200px;
+  font-style: normal;
+  text-align: center;
+}
