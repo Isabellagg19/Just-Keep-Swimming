@@ -5,8 +5,43 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    background-color:rgb(42, 165, 165)
+body.home {
+    background:rgb(42, 165, 165);
+}
+body.Anger {
+  background: rgb(255, 128, 124);
+}
+
+body.Anxiety {
+  background: #ffc773;
+}
+
+body.Fatigue {
+  background: #60a5ff;
+}
+
+body.Fear {
+  background: #f07fff;
+}
+
+body.Frustation {
+  background: #6e6e6e;
+}
+
+body.Happiness {
+  background: #88f779;
+}
+
+body.Nostalgia {
+  background: #88ebf8;
+}
+
+body.Sadness {
+  background: #606aff;
+}
+
+body.stress {
+  background: #ff7a97;
 }
 
 .main-title {
