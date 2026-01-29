@@ -11,39 +11,39 @@ body.home {
     margin: 0;
 }
 body.anger {
-  background: #fc1e1eb6;
+  background:#7aa8ff;
 }
 
 body.anxiety {
-  background: #ffc773;
+  background: #c0fd71;
 }
 
 body.fatigue {
-  background: #60a5ff;
+  background: #f8f54e;
 }
 
 body.fear {
-  background: #f07fff;
+  background: #f7907e;
 }
 
 body.frustation {
-  background: #6e6e6e;
+  background: #fdd054;
 }
 
-body.happiness {
-  background: #88f779;
+body.joy {
+  background: #70f85e;
 }
 
 body.nostalgia {
-  background: #88ebf8;
+  background: #81f0ff;
 }
 
 body.sadness {
-  background: #606aff;
+  background: #c881f7;
 }
 
 body.stress {
-  background: #ff7a97;
+  background: #ff8aa4;
 }
 
 .main-title {
@@ -57,11 +57,55 @@ body.stress {
 .page-title {
   display:flex;
   flex-direction: column;
-  font-family: "Cherry Bomb One", system-ui;
-  font-size: 120px;
+  font-size: 130px;
   font-weight: 400;
   font-style: normal;
   text-align: center;
+}
+
+.page-title h3 {
+  font-family: "Barrio", system-ui;
+  color: #0d007e;
+}
+
+.page-title h4{
+  font-family: "Kirang Haerang", system-ui;
+  color:#00830b
+}
+
+.page-title h5 {
+  font-family: "Love Ya Like A Sister", cursive;
+  color: #8c8f00;
+}
+
+.page-title h6{
+  font-family: "Fontdiner Swanky", serif;
+  color: #740064fd;
+}
+
+.page-title h7 {
+  font-family: "Freckle Face", system-ui;
+  color: #682a00;
+}
+
+.page-title h8 {
+  font-family: "Henny Penny", system-ui;
+  color: #004b0c;
+}
+
+.page-title h9 {
+  font-family: "Cinzel", serif;
+  color: #014572;
+}
+
+.page-title h10 {
+  font-family: "Caveat Brush", cursive;
+  color: #440072;
+}
+
+.page-title h11 {
+  font-family: "Shizuru", system-ui;
+  color:#580058
 }
 
 .hero {
