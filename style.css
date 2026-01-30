@@ -140,6 +140,8 @@ body.stress {
   margin-top: 20px;
 }
 
+
+
 .btn {
   display: inline-block;
   font-family: "Sour Gummy", sans-serif;
@@ -150,6 +152,51 @@ body.stress {
   border-radius: 999px;
   cursor: pointer;
 }
+
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Quicksand", sans-serif;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.space {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  background: #0e59fa93;
+  border-left: 6px solid #0c0044;
+  padding: 20px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+.box h12{
+  font-family: "Sour Gummy", sans-serif;;
+}
+
+.box ul {
+  padding-left: 20px;
+}
+
+.box li {
+  margin-bottom: 10px;
+  font-family: "Quicksand", sans-serif;;
+}
+
+.space2 {
+  margin-top: 40px;
+}
+
 
 .hero-buttons .btn:visited {
   color: #000000;
