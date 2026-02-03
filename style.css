@@ -26,9 +26,6 @@ body.fear {
   background: #f7907e;
 }
 
-body.frustation {
-  background: #fdd054;
-}
 
 body.joy {
   background: #70f85e;
@@ -43,7 +40,7 @@ body.sadness {
 }
 
 body.stress {
-  background: #ff8aa4;
+  background: #fdd054;
 }
 
 .main-title {
@@ -79,13 +76,8 @@ body.stress {
 }
 
 .page-title h6{
-  font-family: "Fontdiner Swanky", serif;
-  color: #740064fd;
-}
-
-.page-title h7 {
   font-family: "Freckle Face", system-ui;
-  color: #682a00;
+  color: #740064fd;
 }
 
 .page-title h8 {
@@ -105,7 +97,7 @@ body.stress {
 
 .page-title h11 {
   font-family: "Shizuru", system-ui;
-  color:#580058
+  color:#583c00
 }
 
 .hero {
@@ -180,6 +172,8 @@ body.stress {
   border-radius: 15px;
 }
 
+
+
 .box h12{
   font-family: "Sour Gummy", sans-serif;
 }
@@ -194,7 +188,7 @@ body.stress {
 }
 
 .space2 {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .activities-section h13 {
@@ -240,6 +234,111 @@ body.stress {
 .activity-card p {
   font-size: 14px;
   color: #555;
+}
+
+.sticky-section {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.sticky-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container1 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease;
+  background-color: #440072;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.container2 {
+    width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-4deg);
+  transition: transform 0.3s ease;
+  background-color: #00830b;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.container3 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(3deg);
+  transition: transform 0.3s ease;
+  background-color: #555;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.container4 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-2deg);
+  transition: transform 0.3s ease;
+  background-color: #eb1b1b;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.container5 {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  background-color: #641beb;
+  transform: rotate(5deg);
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.pin {
+  position: absolute;
+  top: -15px;
+  font-size: 24px;
+}
+
+.h16 {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 30px;
+  align-items: center;
 }
 
 
