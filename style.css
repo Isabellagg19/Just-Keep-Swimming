@@ -218,12 +218,6 @@ body.stress {
   font-family: "Darker Grotesque", sans-serif;
 }
 
-.title-activity {
-  margin: 15px 0 10px;
-  color: #00695c;
-  font-family: "Darker Grotesque", sans-serif;
-  font-size: 20px;
-}
 .activity-card:hover {
   transform: translateY(-8px);
 }
@@ -235,6 +229,7 @@ body.stress {
 .activity-card h14 {
   margin: 15px 0 10px;
   color: #00695c;
+  font-size: 24px;
 }
 
 .activity-card p {
