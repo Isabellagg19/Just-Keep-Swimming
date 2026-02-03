@@ -218,6 +218,12 @@ body.stress {
   font-family: "Darker Grotesque", sans-serif;
 }
 
+.title-activity {
+  margin: 15px 0 10px;
+  color: #00695c;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 20px;
+}
 .activity-card:hover {
   transform: translateY(-8px);
 }
@@ -249,96 +255,60 @@ body.stress {
   margin-top: 30px;
 }
 
-.container1 {
+.sticky-note {
   width: 200px;
   height: 200px;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transform: rotate(-1deg);
-  transition: transform 0.3s ease;
-  background-color: #440072;
-  font-family: "Sour Gummy", sans-serif;
 }
 
-.container2 {
-    width: 200px;
-  height: 200px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.rotate1 {
   transform: rotate(-4deg);
-  transition: transform 0.3s ease;
-  background-color: #00830b;
-  font-family: "Sour Gummy", sans-serif;
+  background-color: #20ff51c5;
 }
 
-.container3 {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transform: rotate(3deg);
-  transition: transform 0.3s ease;
-  background-color: #555;
-  font-family: "Sour Gummy", sans-serif;
+.rotate2 {
+   transform: rotate(3deg);
+   background-color: #2fe297ad;
 }
 
-.container4 {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.rotate3 {
   transform: rotate(-2deg);
-  transition: transform 0.3s ease;
-  background-color: #eb1b1b;
-  font-family: "Sour Gummy", sans-serif;
+  background-color: #e629bdbd;
 }
 
-.container5 {
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease;
-  background-color: #641beb;
+.rotate4 {
   transform: rotate(5deg);
+  background-color: #1969d1a9;
+}
+
+.rotate5 {
+  transform: rotate(-3deg);
+  background-color: #e22fd9ad;
+}
+
+.postit {
   font-family: "Sour Gummy", sans-serif;
+  font-size: 20px;
+}
+.sticky:hover {
+  transform: rotate(0deg) scale(1.08);
 }
 
 .pin {
   position: absolute;
   top: -15px;
-  font-size: 24px;
+  font-size: 30px;
 }
 
-.h16 {
-  font-family: "Sour Gummy", sans-serif;
-  font-size: 30px;
+.postit-title {
+  font-size: 45px;
   align-items: center;
+  font-family: "Sour Gummy", sans-serif;
 }
 
 
