@@ -167,6 +167,7 @@ body.stress {
 
 .box h12{
   font-family: "Sour Gummy", sans-serif;
+  font-size: 30px;
 }
 
 .box ul {
@@ -403,6 +404,78 @@ body.stress {
   background: #89c0ff;
 }
 
+.sadness-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+.sadness-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.sad-bar {
+  width: 420px;
+  padding: 16px 30px;
+  border-radius: 999px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  font-size: 23px;
+  text-align: left;
+ font-family: "Poiret One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.s1 {
+  background-color: #ffffff;
+}
+
+.s2 {
+  background-color: #d3d2ff;
+}
+
+.s3 {
+  background-color: #b3b8ff;
+}
+
+.s4 {
+  background-color: #a1a8ff;
+}
+
+.s5 {
+  background-color: #7f88fd;
+}
+
+.s6 {
+  background-color: #6771ff;
+}
+
+.s7 {
+  background-color: #535eff;
+}
+
+.s8 {
+  background-color: #3441fa;
+}
+
+.sadness-section2 {
+  text-align: center;
+  margin: 80px auto;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.a1{
+  top: 40px; left: 100px; transform: rotate(-4deg);
+}
+.a2 {
+  top: 70px; right: 100px; transform: rotate(3deg); 
+}
+.a3 {
+  bottom: 80px; left:300px; transform: rotate(2deg);
+}
 .hero-buttons .btn:visited {
   color: #000000;
 }
