@@ -26,11 +26,6 @@ body.fear {
   background: #f7907e;
 }
 
-
-body.joy {
-  background: #70f85e;
-}
-
 body.nostalgia {
   background: #81f0ff;
 }
@@ -80,10 +75,6 @@ body.stress {
   color: #740064fd;
 }
 
-.page-title h8 {
-  font-family: "Henny Penny", system-ui;
-  color: #004b0c;
-}
 
 .page-title h9 {
   font-family: "Cinzel", serif;
@@ -338,7 +329,7 @@ body.stress {
 
 .card h16 {
   margin-bottom: 10px;
-  font-family:"Sour Gummy", sans-serif;;
+  font-family:"Sour Gummy", sans-serif;
 }
 
 .card:hover {
@@ -355,6 +346,61 @@ body.stress {
  }
 .c4 { 
   bottom: 80px; right: 240px; transform: rotate(-3deg); 
+}
+
+.one-title {
+  font-family:"Sour Gummy", sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.nostalgia-section {
+  text-align: center;
+  margin: 80px auto;
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.bubble-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+  margin: auto;
+}
+
+
+.bubble {
+  position: absolute;
+  display: flex;
+  line-height: 1.4;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+  font-size: 17px;
+  animation: float 6s ease-in-out infinite;
+}
+
+.b1 {
+  top: 50px;
+  left: 100px; 
+  background: #e2ff77;
+  }
+.b2 {
+  top: 50px;
+  right: 120px; 
+  background: #d894ff;
+}
+.b3 { 
+  bottom: 30px;
+  left: 350px; 
+  background: #89c0ff;
 }
 
 .hero-buttons .btn:visited {
