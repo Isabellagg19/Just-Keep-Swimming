@@ -476,6 +476,40 @@ body.stress {
 .a3 {
   bottom: 80px; left:300px; transform: rotate(2deg);
 }
+
+.fear-section {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.fear-boxes {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.fear-box {
+  width: 320px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  text-align: left;
+}
+
+.fear-box h2 {
+  margin-bottom: 15px;
+}
+
+.fear-box ul {
+  padding-left: 18px;
+}
+
+.fear-box li {
+  margin-bottom: 10px;
+}
 .hero-buttons .btn:visited {
   color: #000000;
 }
