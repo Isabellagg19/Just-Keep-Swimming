@@ -1,4 +1,4 @@
-# Just-Keep-Swimming
+
 Just Keep Swimming is a website designed to help people better understand emotions that are often labeled as “negative.” The goal is to explore what triggers these emotions, how they can be managed, and most importantly to remind us that emotions are meant to be felt. They are one of the ways our body and mind respond to everyday life situations. Even when life feels overwhelming, this project encourages people to keep going, to just keep swimming, until things begin to feel lighter again.
 
 This website was built using Visual Studio Code, with multiple HTML pages, each one dedicated to a different emotion. Every emotion page has its own visual identity:
