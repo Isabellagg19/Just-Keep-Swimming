@@ -517,7 +517,7 @@ body.stress {
   font-family: "Sour Gummy", sans-serif;
 }
 
-.bubble-container {
+.bubblee-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -526,7 +526,7 @@ body.stress {
 }
 
 
-.bubble {
+.bubblee {
   width: 280px;
   height: 280px;
   border-radius: 50%;
@@ -542,13 +542,13 @@ body.stress {
   animation: float 6s ease-in-out infinite;
 }
 
-.bubble h3 {
+.bubblee h3 {
   font-size: 18px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.bubble p {
+.bubblee p {
   font-size: 14px;
   line-height: 1.4;
   text-align: center;
@@ -556,18 +556,7 @@ body.stress {
   transition: opacity 0.3s ease
 }
 
-.b1{
-  top: 10px; left: 600px;
-}
-.b2 {
-  top: 80px; right: 300px; 
-}
-.b3 {
-  bottom: 20px; left:30px;
-}
-
-
-.bubble:hover p {
+.bubblee:hover p {
   opacity: 1;
 }
 
