@@ -76,19 +76,22 @@ body.stress {
 }
 
 
-.page-title h9 {
+#nostalgia {
   font-family: "Cinzel", serif;
   color: #014572;
+  font-size: 130px;
 }
 
-.page-title h10 {
+#sadness {
   font-family: "Caveat Brush", cursive;
   color: #440072;
+  font-size: 130px;
 }
 
-.page-title h11 {
+#stress {
   font-family: "Shizuru", system-ui;
-  color:#583c00
+  color:#583c00;
+  font-size: 130px;
 }
 
 .hero {
@@ -139,20 +142,15 @@ body.stress {
 .subtitle {
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-size: 24px;
   font-family: "Darker Grotesque", sans-serif;
-  justify-content: center;
-  margin-left: 35px;
-  margin-right: 35px;
+  justify-content: left;
+  padding: 80px;
   
 }
 
-.space {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+strong {
+  align-content: left;
 }
 
 .box {
@@ -219,7 +217,7 @@ body.stress {
   font-size: 40px;
 }
 
-.activity-card h14 {
+.activity-card h6 {
   margin: 15px 0 10px;
   color: #00695c;
   font-size: 24px;
@@ -287,12 +285,6 @@ body.stress {
   transform: rotate(0deg) scale(1.08);
 }
 
-.pin {
-  position: absolute;
-  top: -15px;
-  font-size: 30px;
-}
-
 .postit-title {
   font-size: 45px;
   align-items: center;
@@ -313,7 +305,6 @@ body.stress {
 
 .floating-cards {
   position: relative;
-  width: 100%;
   max-width: 900px;
   margin: auto;
   height: 450px;
