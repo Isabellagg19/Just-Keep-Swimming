@@ -126,6 +126,10 @@ body.stress {
   margin-top: 20px;
 }
 
+.space {
+  margin-top: 30px;
+}
+
 
 
 .btn {
@@ -145,6 +149,7 @@ body.stress {
   font-size: 24px;
   font-family: "Darker Grotesque", sans-serif;
   justify-content: left;
+  letter-spacing: 3px;
   padding: 80px;
   
 }
@@ -180,6 +185,7 @@ strong {
 
 .space2 {
   margin-top: 80px;
+  text-align: left;
 }
 
 .activities-section h13 {
